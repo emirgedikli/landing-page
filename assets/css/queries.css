@@ -1,0 +1,84 @@
+/* mobile S-M-L */
+@media screen and (max-width: 426px) {
+  /* background */
+
+  .sm-bg-orange {
+    background-color: #e67b13;
+  }
+
+  .sm-bg-grey {
+    background-color: #292d33;
+  }
+
+  /* text-color */
+
+  .sm-text-white {
+    color: rgb(255 255 255);
+  }
+
+  /* font-size */
+
+  .sm-text-6xl {
+    font-size: 3.75rem; /* 60px */
+    line-height: 1;
+  }
+
+  .sm-text-base {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+  }
+
+  /* style */
+
+  .sm-overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .sm-rounded-none {
+    border-radius: 50px;
+  }
+
+  .sm-opacity-20 {
+    opacity: 0.2;
+  }
+
+  /* position */
+
+  .sm-scroll-auto {
+    scroll-behavior: auto;
+  }
+
+  /* margin */
+
+  /* padding */
+
+  .sm-py-2-5 {
+    padding-top: 0.625rem; /* 10px */
+    padding-bottom: 0.625rem; /* 10px */
+  }
+
+  .sm-px-7 {
+    padding-left: 1.75rem; /* 28px */
+    padding-right: 1.75rem; /* 28px */
+  }
+
+  .sm-pt-24 {
+    padding-top: 6rem; /* 96px */
+  }
+
+  .sm-pl-8 {
+    padding-left: 2rem; /* 32px */
+  }
+
+  .sm-pt-28 {
+    padding-top: 7rem; /* 112px */
+  }
+
+  .sm-pt-52 {
+    padding-top: 13rem; /* 208px */
+  }
+
+  .sm-pr-9 {
+    padding-right: 2.25rem; /* 36px */
+  }
+}
