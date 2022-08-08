@@ -10,6 +10,10 @@
     background-color: #292d33;
   }
 
+  .sm-bg-black {
+    background-color: #0000;
+  }
+
   /* text-color */
 
   .sm-text-white {
@@ -38,6 +42,10 @@
 
   .sm-overflow-x-hidden {
     overflow-x: hidden;
+  }
+
+  .sm-rounded-none {
+    border-radius: 0px;
   }
 
   .sm-opacity-20 {
@@ -76,9 +84,12 @@
     padding-top: 13rem; /* 208px */
   }
 
-  .sm-px-10 {
-    padding-left: 2.5rem; /* 40px */
-    padding-right: 2.5rem; /* 40px */
+  .sm-pr-12 {
+    padding-right: 3rem; /* 48px */
+  }
+
+  .sm-pl-16 {
+    padding-left: 4rem; /* 64px */
   }
 
   .sm-pr-9 {
@@ -87,5 +98,9 @@
 
   .sm-pt-5 {
     padding-top: 1.25rem; /* 20px */
+  }
+
+  .sm-pl-14 {
+    padding-left: 3.5rem; /* 56px */
   }
 }
