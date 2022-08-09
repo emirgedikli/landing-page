@@ -26,6 +26,10 @@
 
   /* font-size */
 
+  .sm-uppercase {
+    text-transform: uppercase;
+  }
+
   .sm-text-6xl {
     font-size: 3.75rem; /* 60px */
     line-height: 1;
@@ -72,10 +76,20 @@
     opacity: 0.2;
   }
 
+  /* width & height */
+
+  .sm-max-w-full {
+    max-width: 100%;
+  }
+
   /* position */
 
   .sm-scroll-auto {
     scroll-behavior: auto;
+  }
+
+  .sm-relative {
+    position: relative;
   }
 
   /* margin */
@@ -172,5 +186,26 @@
 
   .sm-pl-8 {
     padding-left: 2rem; /* 32px */
+  }
+
+  .sm-px-14 {
+    padding-left: 3.5rem; /* 56px */
+    padding-right: 3.5rem; /* 56px */
+  }
+
+  .sm-pt-9 {
+    padding-top: 2.25rem; /* 36px */
+  }
+
+  .sm-pt-10 {
+    padding-top: 2.5rem; /* 40px */
+  }
+
+  .sm-pr-20 {
+    padding-right: 5rem; /* 80px */
+  }
+
+  .sm-pl-12 {
+    padding-left: 3rem; /* 48px */
   }
 }
