@@ -10,6 +10,10 @@
     background-color: #292d33;
   }
 
+  .sm-bg-grey-200 {
+    background-color: #292a33;
+  }
+
   .sm-bg-black {
     background-color: #0000;
   }
@@ -30,6 +34,22 @@
   .sm-text-base {
     font-size: 1rem; /* 16px */
     line-height: 1.5rem; /* 24px */
+  }
+
+  .sm-text-lg {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+  }
+
+  .sm-text-3xl {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+  }
+
+  /* border */
+
+  .sm-border-orange {
+    border-color: #e67b13;
   }
 
   /* flex */
@@ -84,8 +104,8 @@
     padding-top: 13rem; /* 208px */
   }
 
-  .sm-pr-12 {
-    padding-right: 3rem; /* 48px */
+  .sm-pr-14 {
+    padding-right: 3.5rem; /* 56px */
   }
 
   .sm-pl-16 {
@@ -106,5 +126,51 @@
 
   .sm-pl-56 {
     padding-left: 13.5rem; /* 224px */
+  }
+
+  .sm-pt-5 {
+    padding-top: 1.25rem; /* 20px */
+  }
+
+  .sm-pl-12 {
+    padding-left: 3rem; /* 48px */
+  }
+
+  .sm-pr-28 {
+    padding-right: 7rem; /* 112px */
+  }
+
+  .sm-pt-16 {
+    padding-top: 4rem; /* 64px */
+  }
+
+  .sm-pr-12 {
+    padding-right: 3rem; /* 48px */
+  }
+
+  .sm-pt-11 {
+    padding-top: 2.75rem; /* 44px */
+  }
+
+  .sm-pb-14 {
+    padding-bottom: 3.5rem; /* 56px */
+  }
+
+  .sm-px-8 {
+    padding-left: 2rem; /* 32px */
+    padding-right: 2rem; /* 32px */
+  }
+
+  .sm-py-2-5 {
+    padding-top: 0.625rem; /* 10px */
+    padding-bottom: 0.625rem; /* 10px */
+  }
+
+  .sm-pl-4 {
+    padding-left: 1rem; /* 16px */
+  }
+
+  .sm-pl-8 {
+    padding-left: 2rem; /* 32px */
   }
 }
