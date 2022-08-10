@@ -2,6 +2,10 @@
 @media screen and (max-width: 426px) {
   /* background */
 
+  .sm-bg-brown {
+    background-color: brown;
+  }
+
   .sm-bg-orange {
     background-color: #e67b13;
   }
