@@ -94,6 +94,22 @@
 
   /* margin */
 
+  .sm-mt-52 {
+    margin-top: 13rem; /* 208px */
+  }
+
+  .sm-mt-52-13 {
+    margin-top: -13rem; /* 208px */
+  }
+
+  .sm-ml-56	{
+    margin-left: 14rem; /* 224px */
+  }
+
+  .sm-mt-24	{
+    margin-top: 6rem; /* 96px */
+  }
+
   /* padding */
 
   .sm-py-2-5 {
