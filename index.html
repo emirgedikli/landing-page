@@ -15,7 +15,7 @@
     <title>landing page</title>
   </head>
   <body class="overflow-x-hidden sm-scroll-auto">
-    <main class="sm-bg-orange sm-text-white font-comfortaa">
+    <main class="sm-bg-orange sm-text-white font-comfortaa sm-pb-60">
       <div class="sm-pt-24 sm-pl-12">
         <div>
           <h1 class="sm-text-6xl">AroundMe</h1>
@@ -28,48 +28,60 @@
         </div>
         <div class="sm-pt-5 sm-flex">
           <div>
-            <button class="btn-dark sm-py-2-5 sm-px-7">App Store</button>
+            <button
+              class="sm-py-2-5 sm-px-7 sm-border-none sm-bg-grey-300 sm-text-white"
+            >
+              App Store
+            </button>
           </div>
           <div class="sm-pl-16">
-            <button class="btn-dark sm-py-2-5 sm-px-7">Google Play</button>
+            <button
+              class="sm-py-2-5 sm-px-7 sm-border-none sm-bg-grey-300 sm-text-white"
+            >
+              Google Play
+            </button>
           </div>
         </div>
       </div>
-      <div>
-        <img
-          src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/b12283d0235c5fb892d36ce5/Untitled1.png"
-          alt="01"
-          width="203"
-          height="172"
-          class="sm-opacity-20 sm-ml-56 sm-mt-24"
-        />
-        <img
-          src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/1f150062ece65447a83c1776/mobileinhandpnghandholdingsmartphonepngimage221488.png"
-          alt="mobile1"
-          width="425"
-          height="447"
-          class="sm-mt-52 sm-mt-52-13"
-        />
+      <div class="sm-relative">
+        <div class="z-index-1 sm-relative">
+          <img
+            src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/b12283d0235c5fb892d36ce5/Untitled1.png"
+            alt="01"
+            width="200"
+            height="172"
+            class="sm-opacity-20 sm-ml-56 sm-mt-24"
+          />
+        </div>
+        <div class="z-index-2 sm-absolute">
+          <img
+            src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/1f150062ece65447a83c1776/mobileinhandpnghandholdingsmartphonepngimage221488.png"
+            alt="mobile1"
+            width="425"
+            height="448"
+            class="sm-mt-52-13"
+          />
+        </div>
       </div>
     </main>
-    <main class="sm-bg-grey sm-text-white font-comfortaa">
-      <div>
-        <div class="sm-pl-56">
+    <main class="sm-bg-grey sm-text-white font-comfortaa sm-pb-60 sm-mb-60-15">
+      <div class="sm-relative">
+        <div class="sm-pl-56 z-index-1 sm-relative">
           <img
             src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/30928c9a735a50f084229c18/Untitled12.png"
             alt="02"
             width="203"
             height="172"
-            class="sm-opacity-20"
+            class="sm-opacity-20 sm-mt-60 sm-pr-px sm-pb-2"
           />
         </div>
-        <div class="sm-pl-4">
+        <div class="sm-pl-4 z-index-2 sm-absolute">
           <img
             src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/0d8161ae81d55c63964d2259/AppleiPhonePNG03.png"
             alt="mobile2"
             width="270"
             height="428"
-            class="sm-pl-8"
+            class="sm-pl-8 sm-mt-96-33"
           />
         </div>
       </div>
@@ -92,16 +104,16 @@
         </div>
         <div class="sm-pt-11 sm-pb-14">
           <button
-            class="sm-border-orange sm-bg-orange text-white sm-px-8 sm-py-2-5"
+            class="sm-border-none sm-bg-orange text-white sm-px-8 sm-py-2-5"
           >
             Read More
           </button>
         </div>
       </div>
     </main>
-    <main class="sm-bg-grey sm-text-white font-comfortaa">
-      <div class="sm-px-14">
-        <div>
+    <main class="sm-bg-grey sm-text-white font-comfortaa sm-pb-8">
+      <div class="sm-px-14 sm-relative">
+        <div class="z-index-1 sm-relative sm-pt-96-32 sm-pl-8">
           <img
             src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/c88fa2b2fcc65ef3b4b8e81d/Untitled13.png"
             alt="03"
@@ -110,67 +122,73 @@
             class="sm-opacity-20"
           />
         </div>
-        <div>
-          <h4 class="sm-text-lg sm-uppercase">July 19, 2018</h4>
-        </div>
-        <div>
-          <h2 class="sm-text-3xl">
-            AroundMe now lets you see who's online for more efficient DM'ing
-          </h2>
-        </div>
-        <div class="font-sans-serif">
-          <p class="sm-text-base">
-            The Instagram app is loaded with all sorts of features these days,
-            one of which is the ability to send direct messages to friends and
-            family members. Thanks to a new update that's rolling out, it'll now
-            be easier to get in touch with friends right away.
-          </p>
-        </div>
-        <div class="sm-pt-9 sm-pb-14">
-          <button
-            class="sm-border-orange sm-bg-orange text-white sm-px-8 sm-py-2-5"
-          >
-            Read More
-          </button>
+        <div class="z-index-2 sm-absolute sm-mt-96-38 sm-pr-20-5 sm-pl-8">
+          <div>
+            <h4 class="sm-text-lg sm-uppercase">July 19, 2018</h4>
+          </div>
+          <div>
+            <h2 class="sm-text-3xl">
+              AroundMe now lets you see who's online for more efficient DM'ing
+            </h2>
+          </div>
+          <div class="font-sans-serif">
+            <p class="sm-text-base">
+              The Instagram app is loaded with all sorts of features these days,
+              one of which is the ability to send direct messages to friends and
+              family members. Thanks to a new update that's rolling out, it'll
+              now be easier to get in touch with friends right away.
+            </p>
+          </div>
+          <div class="sm-pt-9 sm-pb-14">
+            <button
+              class="sm-border-none sm-bg-orange text-white sm-px-8 sm-py-2-5"
+            >
+              Read More
+            </button>
+          </div>
         </div>
       </div>
     </main>
     <main>
-      <div class="">
+      <div>
         <img
           src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/a1405454e214593293291767/pexelsphoto618545.jpeg"
           alt="montagne"
-          class="sm-max-w-full"
+          class="sm-max-w-full" height="816"
         />
       </div>
     </main>
     <main class="sm-bg-grey-200 sm-text-white font-comfortaa">
-      <div>
-        <img
-          src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/e80cd60dcd835355a75dc959/pexelsphoto219014.jpeg"
-          alt="sea"
-          class="sm-max-w-full"
-        />
-      </div>
-      <div class="sm-pt-10 sm-pr-20 sm-pl-12">
-        <h2 class="sm-text-3xl">
-          AroundMe is testing out a question-asking feature in Stories
-        </h2>
-      </div>
-      <div class="font-sans-serif">
-        <p class="sm-pt-5">
-          Stories are a great way to get feedback from your followers. With the
-          poll sticker and emoji slider sticker, users can find out what their
-          fans really think about...well, anything! I've seen individuals ask
-          their followers for opinions about which of two haircuts to get, which
-          of two product color schemes to go forward with, and even how much
-          they loved the finale of [insert preferred TV show here].
-        </p>
+      <div class="sm-relative">
+        <div class="z-index-1 sm-relative">
+          <img
+            src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/e80cd60dcd835355a75dc959/pexelsphoto219014.jpeg"
+            alt="sea"
+            class="sm-max-w-full"
+          />
+        </div>
+        <div class="z-index-2 sm-absolute sm-mt-80-21">
+          <div class="sm-pt-10 sm-pr-20 sm-pl-12">
+            <h2 class="sm-text-3xl">
+              AroundMe is testing out a question-asking feature in Stories
+            </h2>
+          </div>
+          <div class="font-sans-serif">
+            <p class="sm-pt-5">
+              Stories are a great way to get feedback from your followers. With the
+              poll sticker and emoji slider sticker, users can find out what their
+              fans really think about...well, anything! I've seen individuals ask
+              their followers for opinions about which of two haircuts to get, which
+              of two product color schemes to go forward with, and even how much
+              they loved the finale of [insert preferred TV show here].
+            </p>
+          </div>
+        </div>
       </div>
     </main>
-    <main class="sm-bg-grey-200 sm-text-white font-comfortaa">
-      <div>
-        <div>
+    <main class="sm-bg-grey-200 sm-text-white font-comfortaa sm-pb-60">
+      <div class="sm-relative">
+        <div class="z-index-1 sm-relative sm-pt-32 sm-pl-20">
           <img
             src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/08851c356455514b879d0385/Untitled14.png"
             alt="04"
@@ -179,11 +197,11 @@
             class="sm-opacity-20"
           />
         </div>
-        <div>
+        <div class="z-index-2 sm-absolute sm-mt-80-21">
           <img
             src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/4312b070e4f35c4bb2927817/iphone2854325_960_720.png"
             alt="mobile3"
-            width="340"
+            width="380"
             height="175"
             class="sm-pl-8"
           />

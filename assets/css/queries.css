@@ -14,6 +14,10 @@
     background-color: #292a33;
   }
 
+  .sm-bg-grey-300 {
+    background-color: #1d2228;
+  }
+
   .sm-bg-black {
     background-color: #0000;
   }
@@ -51,6 +55,10 @@
   }
 
   /* border */
+
+  .sm-border-none {
+    border-style: none;
+  }
 
   .sm-border-orange {
     border-color: #e67b13;
@@ -92,22 +100,54 @@
     position: relative;
   }
 
-  /* margin */
-
-  .sm-mt-52 {
-    margin-top: 13rem; /* 208px */
+  .sm-absolute {
+    position: absolute;
   }
+
+  .sm-relative {
+    position: relative;
+  }
+
+  /* margin */
 
   .sm-mt-52-13 {
     margin-top: -13rem; /* 208px */
   }
 
-  .sm-ml-56	{
+  .sm-ml-56 {
     margin-left: 14rem; /* 224px */
   }
 
-  .sm-mt-24	{
+  .sm-mt-24 {
     margin-top: 6rem; /* 96px */
+  }
+
+  .sm-mt-60 {
+    margin-top: 15rem; /* 240px */
+  }
+
+  .sm-mt-96-33 {
+    margin-top: -33rem; /* 384px */
+  }
+
+  .sm-mt-96 {
+    margin-top: 33rem; /* 384px */
+  }
+
+  .sm-mb-60-15 {
+    margin-bottom: -15rem; /* 240px */
+  }
+
+  .sm-mt-20-5 {
+    margin-top: -5rem; /* 80px */
+  }
+
+  .sm-mb-96-23 {
+    margin-bottom: -23rem; /* 384px */
+  }
+
+  .sm-mt-80-21 {
+    margin-top: -21rem; /* 320px */
   }
 
   /* padding */
@@ -223,5 +263,65 @@
 
   .sm-pl-12 {
     padding-left: 3rem; /* 48px */
+  }
+
+  .sm-pb-60 {
+    padding-bottom: 15rem; /* 240px */
+  }
+
+  .sm-pr-px {
+    padding-right: 1px;
+  }
+
+  .sm-pb-2 {
+    padding-bottom: 0.5rem; /* 8px */
+  }
+
+  .sm-pb-96 {
+    padding-bottom: 24rem; /* 384px */
+  }
+
+  .sm-pb-80 {
+    padding-bottom: 20rem; /* 320px */
+  }
+
+  .sm-pb-8 {
+    padding-bottom: 2rem; /* 32px */
+  }
+
+  .sm-pt-96 {
+    padding-top: 24rem; /* 384px */
+  }
+
+  .sm-pt-96-32 {
+    padding-top: 32rem; /* 384px */
+  }
+
+  .sm-pr-20-5 {
+    padding-right: 5rem; /* 80px */
+  }
+
+  .sm-pr-20 {
+    padding-right: 5rem; /* 80px */
+  }
+
+  .sm-pl-8 {
+    padding-left: 2rem; /* 32px */
+  }
+
+  .sm-mt-96-38 {
+    margin-top: -38rem;
+  }
+
+  .sm-pl-8 {
+    padding-left: 2rem; /* 32px */
+  }
+
+  .sm-pt-32	{
+    padding-top: 8rem; /* 128px */
+  }
+
+  .sm-pl-20	{
+    padding-left: 5rem; /* 80px */
   }
 }
