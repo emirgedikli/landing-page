@@ -38,6 +38,10 @@
     background-position: center;
   }
 
+  .sm-bg-montagne {
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/e80cd60dcd835355a75dc959/pexelsphoto219014.jpeg);
+  }
+
   /* text align */
 
   .sm-text-center {
@@ -97,6 +101,13 @@
 
   .sm-border-orange {
     border-color: #e67b13;
+  }
+
+  .sm-border-grey {
+    border-color: #3d3f44;
+    border-style: solid;
+    background-color: #3d3f44;
+    margin-bottom: 10rem;
   }
 
   /* flex */
@@ -165,6 +176,18 @@
     margin-left: 14rem; /* 224px */
   }
 
+  .sm-mb-28-7 {
+    margin-bottom: -7rem; /* 112px */
+  }
+
+  .sm-mt-20 {
+    margin-top: 5rem; /* 80px */
+  }
+
+  .sm-ml-10 {
+    margin-left: 2.5rem; /* 40px */
+  }
+
   .sm-mt-24 {
     margin-top: 6rem; /* 96px */
   }
@@ -199,6 +222,14 @@
 
   .sm-mb-52-13 {
     margin-bottom: -13rem; /* 208px */
+  }
+
+  .sm-mt-80-21 {
+    margin-top: -21rem; /* 320px */
+  }
+
+  .sm-mt-80-19 {
+    margin-top: 19rem; /* 320px */
   }
 
   /* padding */
@@ -419,5 +450,18 @@
 
   .sm-pl-12-3-2 {
     padding-left: 3.2rem; /* 48px */
+  }
+
+  .sm-pb-4 {
+    padding-bottom: 1rem; /* 16px */
+  }
+
+  .sm-px-14 {
+    padding-left: 3.5rem; /* 56px */
+    padding-right: 3.5rem; /* 56px */
+  }
+
+  .sm-pb-48 {
+    padding-bottom: 12rem; /* 192px */
   }
 }
