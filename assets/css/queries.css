@@ -38,10 +38,6 @@
     background-position: center;
   }
 
-  .sm-bg-montagne {
-    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/e80cd60dcd835355a75dc959/pexelsphoto219014.jpeg);
-  }
-
   /* text align */
 
   .sm-text-center {
@@ -56,6 +52,12 @@
 
   .sm-text-beige {
     color: #f5c79b;
+  }
+
+  /* position */
+
+  .sm-object-cover {
+    object-fit: cover;
   }
 
   /* font-size */
@@ -104,10 +106,11 @@
   }
 
   .sm-border-grey {
-    border-color: #3d3f44;
+    border-color: #292c33;
+  }
+
+  .sm-border-solid {
     border-style: solid;
-    background-color: #3d3f44;
-    margin-bottom: 10rem;
   }
 
   /* flex */
@@ -124,6 +127,10 @@
 
   .sm-rounded-none {
     border-radius: 0px;
+  }
+
+  .sm-opacity-90 {
+    opacity: 0.9;
   }
 
   .sm-opacity-10 {
@@ -168,12 +175,24 @@
     margin: auto;
   }
 
+  .sm-mt-16-4 {
+    margin-top: -4rem; /* 64px */
+  }
+
+  .sm-mt-8-2 {
+    margin-top: -2rem; /* 32px */
+  }
+
   .sm-mt-52-13 {
     margin-top: -13rem; /* 208px */
   }
 
   .sm-ml-56 {
     margin-left: 14rem; /* 224px */
+  }
+
+  .sm-ml-8-2 {
+    margin-left: -2rem; /* 32px */
   }
 
   .sm-mb-28-7 {
@@ -230,6 +249,19 @@
 
   .sm-mt-80-19 {
     margin-top: 19rem; /* 320px */
+  }
+
+  .sm-mx-20 {
+    margin-left: 5rem; /* 80px */
+    margin-right: 5rem; /* 80px */
+  }
+
+  .sm-mb-40 {
+    margin-bottom: 10rem; /* 160px */
+  }
+
+  .sm-mt-96-27 {
+    margin-top: -27rem; /* 384px */
   }
 
   /* padding */
@@ -399,8 +431,8 @@
     padding-left: 2rem; /* 32px */
   }
 
-  .sm-pt-32 {
-    padding-top: 8rem; /* 128px */
+  .sm-pt-48 {
+    padding-top: 12rem; /* 192px */
   }
 
   .sm-pl-20 {
@@ -463,5 +495,24 @@
 
   .sm-pb-48 {
     padding-bottom: 12rem; /* 192px */
+  }
+
+  .sm-py-16 {
+    padding-top: 4rem; /* 64px */
+    padding-bottom: 4rem; /* 64px */
+  }
+
+  .sm-px-4 {
+    padding-left: 1rem; /* 16px */
+    padding-right: 1rem; /* 16px */
+  }
+
+  .sm-px-8 {
+    padding-left: 2rem; /* 32px */
+    padding-right: 2rem; /* 32px */
+  }
+
+  .sm-pt-4 {
+    padding-top: 1rem; /* 16px */
   }
 }
