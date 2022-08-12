@@ -37,4 +37,11 @@ Le formateur OnlineFormaPro :
 - [tailwind](https://tailwindcss.com/)
 - [bootstrap](https://getbootstrap.com/)
 - [MDN](https://developer.mozilla.org/fr/)
- 
+
+### Test Score GTmetrix
+
+## GTmetrix Grade
+
+- `Grade` = B
+- `Performance` = 88%
+- `Structure` = 89%
