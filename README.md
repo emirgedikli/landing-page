@@ -38,7 +38,7 @@ Le formateur OnlineFormaPro :
 - [bootstrap](https://getbootstrap.com/)
 - [MDN](https://developer.mozilla.org/fr/)
 
-### Test Score GTmetrix
+# Test Score GTmetrix
 
 ## GTmetrix Grade
 
